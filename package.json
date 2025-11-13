@@ -1,0 +1,21 @@
+{
+  "name": "convert-identifier-case",
+  "displayName": "Convert Identifier Case",
+  "description": "Плагин для изменения формата идентификаторов.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "activationEvents": [
+    "onCommand:extension.convertIdentifierCase"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.convertIdentifierCase",
+        "title": "Convert Identifier Case"
+      }
+    ]
+  }
+}
