@@ -5,7 +5,6 @@ const vscode = require('vscode');
 @param {vscode.ExtensionContext} context - Контекст расширения
 */
 function activate(context) {
-  vscode.window.showInformationMessage('Плагин Convert Identifier Case активирован!')
 
   const disposable = vscode.commands.registerCommand(
     'extension.convertIdentifierCase',
