@@ -7,7 +7,7 @@ const vscode = require('vscode');
 function activate(context) {
 
   const disposable = vscode.commands.registerCommand(
-    'extension.convertIdentifierCase',
+    'extension.convertCodeStyle',
     async function () {
       const editor = vscode.window.activeTextEditor
       if (!editor) {
